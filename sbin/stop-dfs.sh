@@ -23,6 +23,11 @@
 ## @audience     private
 ## @stability    evolving
 ## @replaceable  no
+HDFS_DATANODE_USER=root
+HADOOP_SECURE_DN_USER=hdfs
+HDFS_NAMENODE_USER=root
+HDFS_SECONDARYNAMENODE_USER=root
+
 function hadoop_usage
 {
   echo "Usage: stop-dfs.sh"

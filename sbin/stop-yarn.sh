@@ -19,6 +19,10 @@
 ## @audience     private
 ## @stability    evolving
 ## @replaceable  no
+YARN_RESOURCEMANAGER_USER=root
+HADOOP_SECURE_DN_USER=yarn
+YARN_NODEMANAGER_USER=root
+
 function hadoop_usage
 {
   hadoop_generate_usage "${MYNAME}" false
