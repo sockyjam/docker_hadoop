@@ -11,3 +11,6 @@ https://www.cnblogs.com/upupfeng/p/13616125.html
 4. cp sbin
 5. cp etc
 
+hadoop-3.0.2.tar.gz
+jdk-8u172-linux-x64.tar.gz
+apache-hive-2.3.7-bin.tar.gz
