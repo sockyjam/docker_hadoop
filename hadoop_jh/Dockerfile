@@ -12,5 +12,5 @@ ENV PATH $HADOOP_HOME/bin:$PATH
 RUN yum install -y which sudo
 RUN yum install -y bind-utils iputils net-tools.x86_64
 
-
+ADD .bashrc /root/
 
