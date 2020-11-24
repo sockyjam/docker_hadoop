@@ -32,7 +32,7 @@
     </property>
     <property>
         <name>dfs.namenode.secondary.http-address</name>
-        <value>hadoop0:9001</value>
+        <value>hadoop0:19001</value>
     </property>
     <property>
         <name>dfs.webhdfs.enabled</name>

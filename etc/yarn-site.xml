@@ -26,23 +26,23 @@
     </property>
     <property>
         <name>yarn.resourcemanager.address</name>
-        <value>hadoop0:8032</value>
+        <value>hadoop0:19002</value>
     </property>
     <property>
         <name>yarn.resourcemanager.scheduler.address</name>
-        <value>hadoop0:8030</value>
+        <value>hadoop0:19003</value>
     </property>
     <property>
         <name>yarn.resourcemanager.resource-tracker.address</name>
-        <value>hadoop0:8031</value>
+        <value>hadoop0:19004</value>
     </property>
     <property>
         <name>yarn.resourcemanager.admin.address</name>
-        <value>hadoop0:8033</value>
+        <value>hadoop0:19005</value>
     </property>
     <property>
         <name>yarn.resourcemanager.webapp.address</name>
-        <value>hadoop0:8088</value>
+        <value>hadoop0:19006</value>
     </property>
 
 
