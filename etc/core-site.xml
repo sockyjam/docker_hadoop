@@ -19,7 +19,7 @@
 <configuration>
 <property>
         <name>fs.defaultFS</name>
-        <value>hdfs://hadoop0:19000</value>
+        <value>hdfs://hadoop0:9000</value>
     </property>
     <property>
         <name>hadoop.tmp.dir</name>

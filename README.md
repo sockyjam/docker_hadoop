@@ -4,6 +4,8 @@
 
 reference:
 https://www.cnblogs.com/upupfeng/p/13616125.html
+https://cloud.tencent.com/developer/article/1084166
+
 
 1. cp hosts
 2. isa ssh keygen

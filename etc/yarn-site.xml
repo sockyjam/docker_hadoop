@@ -16,34 +16,36 @@
 
 <!-- Site specific YARN configuration properties -->
 
-<property>
-        <name>yarn.nodemanager.aux-services</name>
-        <value>mapreduce_shuffle</value>
-    </property>
-    <property>
-        <name>yarn.nodemanager.auxservices.mapreduce.shuffle.class</name>
-        <value>org.apache.hadoop.mapred.ShuffleHandler</value>
-    </property>
-    <property>
-        <name>yarn.resourcemanager.address</name>
-        <value>hadoop0:19002</value>
-    </property>
-    <property>
-        <name>yarn.resourcemanager.scheduler.address</name>
-        <value>hadoop0:19003</value>
-    </property>
-    <property>
-        <name>yarn.resourcemanager.resource-tracker.address</name>
-        <value>hadoop0:19004</value>
-    </property>
-    <property>
-        <name>yarn.resourcemanager.admin.address</name>
-        <value>hadoop0:19005</value>
-    </property>
-    <property>
-        <name>yarn.resourcemanager.webapp.address</name>
-        <value>hadoop0:19006</value>
-    </property>
+	<property>
+		        <name>yarn.nodemanager.aux-services</name>
+				        <value>mapreduce_shuffle</value>
+						    </property>
+							        <property>
+									        <name>yarn.nodemanager.auxservices.mapreduce.shuffle.class</name>
+											        <value>org.apache.hadoop.mapred.ShuffleHandler</value>
+													    </property>
+														        <property>
+																        <name>yarn.resourcemanager.address</name>
+																		        <value>hadoop0:8032</value>
+																				    </property>
+																					        <property>
+																							        <name>yarn.resourcemanager.scheduler.address</name>
+																									        <value>hadoop0:8030</value>
+																											    </property>
+																												        <property>
+																														        <name>yarn.resourcemanager.resource-tracker.address</name>
+																																        <value>hadoop0:8031</value>
+																																		    </property>
+																																			        <property>
+																																					        <name>yarn.resourcemanager.admin.address</name>
+																																							        <value>hadoop0:8033</value>
+																																									    </property>
+																																										        <property>
+																																												        <name>yarn.resourcemanager.webapp.address</name>
+																																														        <value>hadoop0:8088</value>
+																																																    </property>
+
+
 
 
 </configuration>
