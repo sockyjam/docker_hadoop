@@ -44,6 +44,10 @@
         <name>dfs.webhdfs.enabled</name>
         <value>true</value>
     </property>
+<property>
+                <name>dfs.client.use.dataname.hostname</name>
+                <value>true</value>
+        </property>
 
 
 </configuration>
