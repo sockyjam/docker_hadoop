@@ -1,0 +1,2 @@
+flume-ng agent --conf conf --conf-file ftelnet2hdfs.conf --name a1 -Dflume.root.logger=INFO,console
+
